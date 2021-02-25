@@ -16,6 +16,7 @@ Based on the above template, I remodeled it into a reactive web.
 - BOOTSTRAP
 - JQUERY
 - PHP
+- AJAX
 
 **호스팅**  
 - dothome
