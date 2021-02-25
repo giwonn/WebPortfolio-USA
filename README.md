@@ -8,9 +8,7 @@ http://thomsoon.com/thomsoon/demo/
 
 위의 템플릿을 토대로 반응형 웹으로 다시 제작하였습니다.  
 Based on the above template, we re-created it as a reactive web.  
-
-
-
+<br><br><br>
 **사용한 skills**
 - HTML5
 - CSS3
