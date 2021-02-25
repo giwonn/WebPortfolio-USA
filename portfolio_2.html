@@ -1,0 +1,162 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Single - giwon</title>
+    <meta name="description"
+          content="THOMSOON - Single page with minimalist two column description and one photo. Download free now with file Photoshop! ">
+    <meta name="keywords" content="thomsoon, simplicity, theme, html5, single page, boxed portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function() {
+            $("#fullscreen").load("view/fullscreen.html");
+            $("#header-white").load("view/menu.html");
+            $("#opacity-nav").load("view/mobile-menu.html");
+        });
+    </script>
+</head>
+
+<body>
+<div class="opacity-nav"></div>
+
+<!--Header-->
+<header id="fullscreen"></header>
+<header class="boxed" id="header-white"></header>
+<div class="clear"></div>
+
+<!--Content-->
+<div class="content" id="ajax-content">
+
+    <div class="text-intro">
+
+        <h1 style="width:100%">Autonomous RC car</h1>
+        <div class="clear"></div>
+
+        <h1>Intro</h1>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    Develop Period
+                </td>
+                <td>
+                    <div>2017.10 ~ 2018.12</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Purpose</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ It is designed to implement this technology similar to self-driving cars according to the trend of the fourth industrial revolution.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Service</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ Stop and reverse when an obstacle is detected via the sensor.</div>
+                    <div>∎ Driving through traffic light detection.</div>
+                    <div>∎ Safe driving with lane detection.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Development</c10>
+                </td>
+                <td>
+                    <div class="project_div">
+                        ∎ Hardware (RC car)<br>
+                        &nbsp;&nbsp;- PCB substrate<br>
+                        &nbsp;&nbsp;- Motor (AC,DC)<br>
+                        &nbsp;&nbsp;- Sensor (infrared lines, ultrasonic waves)<br>
+                        &nbsp;&nbsp;- LCD, ISP, ATmega128, L298N, Crystal, bar resistance, Capacitor<br>
+                    </div><br>
+                    <div class="project_div">
+                        ∎ Software<br>
+                        &nbsp;&nbsp;- Language : C language<br>
+                        &nbsp;&nbsp;- Program : Hyperterminal, AVR Studio
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Result</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ Designed to detect and stop signals and to detect and avoid driving, obstacles along lanes.</div>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <h1>Circuit diagram</h1>
+        <img src="img/Portfolio_2/Circuit_diagram.png" width="100%" style="margin-bottom:10px;"><br/>
+        <br><br><br><br>
+        <h1>Result</h1>
+        <div style="display:inline-block;">
+        <img src="img/Portfolio_2/pcb.PNG" width="48%" style="margin-right: 4%; float:left; border:1px solid #CCCCCC; box-sizing:border-box;">
+        <img src="img/Portfolio_2/result.JPG" width="48%" style="float:left; border:1px solid #CCCCCC; box-sizing:border-box;">
+        </div>
+        <p class="scenario_p">∎ Built by designing boards with pcb editor.</p>
+        <br/><br/><br/><br/>
+
+        <div class="prev-next">
+
+            <div class="prev-button"><a class="ajax-link" href="portfolio_1.html">Previous project</a></div>
+            <div class="next-button"><a class="ajax-link" href="portfolio_3.html">Next project</a></div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--Home Sidebar-->
+<div id="ajax-sidebar"></div>
+
+<!--Footer-->
+<footer>
+
+    <div class="footer-margin">
+        <div class="copyright">© Copyright 2015 Thomsoon.com. All Rights Reserved.
+        </div>
+    </div>
+
+</footer>
+
+
+<!--Scripts-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+
+</body>
+</html>

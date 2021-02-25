@@ -1,0 +1,419 @@
+@media all and (max-width: 1330px) and (min-width: 1180px) {
+  td {font-size: 15pt;}
+  td div {font-size:15pt;}
+
+  header.boxed .header-margin{
+    width:1000px;
+  }
+
+  .content .text-intro{
+    width:1000px;
+  }
+
+  .footer-margin{
+    width:1000px;
+  }
+
+  .content .text-intro h1, .content .text-intro p{
+    width:60%;
+  }
+
+  #full{
+    width:1000px;
+  }
+
+  .prev-next{
+    max-width:1000px;
+  }
+
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  #portfolio-sidebar{
+
+    width: 710px !important;
+    padding-right: 320px;
+  }
+
+  .portfolio-grid{
+
+    width:1030px;
+
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:312px;
+  }
+
+
+}
+
+
+@media all and (max-width: 1179px) and (min-width: 1024px) {
+  td {font-size: 15pt;}
+  td div {font-size:15pt;}
+
+  header.boxed .header-margin{
+    width:800px;
+  }
+
+  .content .text-intro{
+    width:800px;
+  }
+
+  .footer-margin{
+    width:800px;
+  }
+
+  .content .text-intro h1, .content .text-intro p{
+    width:60%;
+  }
+
+  #full{
+    width:800px;
+  }
+
+  .prev-next{
+    max-width:800px;
+  }
+
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  #portfolio-sidebar{
+
+    width: 580px !important;
+    padding-right: 250px;
+  }
+
+  .portfolio-grid{
+
+    width:830px;
+
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:246px;
+  }
+
+}
+
+
+@media all and (max-width: 1023px) and (min-width: 769px) {
+  td {font-size: 15pt;}
+  td div {font-size:15pt;}
+  .aboutus_img { grid-column-start: 1; grid-column-end: 4; grid-row: span 8;
+    position:relative; width:100%;
+  }
+  .aboutus_title { grid-column-start: 5; grid-column-end: 13; grid-row: span 2; padding-right:15px !important;}
+  .aboutus_title p {width: 100% !important; font-weight:bold !important; text-align:left; margin:0 0 5px 0  !important;}
+  .aboutus_content { grid-column-start: 5; grid-column-end: 13; grid-row: span 2;}
+  .aboutus_content p {width: 100% !important;  margin:0 0 20px 0 !important;}
+  .aboutus_skilllogo {position:relative; grid-column: span 1; grid-row-start:1; grid-row-end:2;}
+  .aboutus_skilllogo img {position: relative; width:100%;}
+  .aboutus_skillname {grid-column-start: span 1; grid-row-start:2; grid-row-end:3;}
+  .aboutus_skillname p {width:100% !important; margin: 0 0 0 0 !important; font-size:1.2rem !important; !important; text-align: center !important; font-weight:bold !important;}
+
+  header.boxed .header-margin{
+    width:600px;
+  }
+
+  .content .text-intro{
+    width:600px;
+  }
+
+  .footer-margin{
+    width:600px;
+  }
+
+  .content .text-intro h1, .content .text-intro p{
+    width:100%;
+  }
+
+  #full{
+    width:600px;
+  }
+
+  .prev-next{
+    max-width:600px;
+  }
+  
+  .home-sidebar{
+    display:none;
+  }
+  
+  ul.header-nav{
+    width:55%;
+  
+  }
+  
+  header li > a{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+ 
+
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  #portfolio-sidebar{
+
+    width:630px !important;
+    padding-right: 0;
+  }
+
+  .portfolio-grid{
+    width:630px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:282px;
+  }
+
+}
+
+
+
+@media all and (max-width: 768px) and (min-width: 481px) {
+  .result { font-size:9pt; }
+  .scenario_p {font-size:11pt !important;}
+  .wrapper_7 {grid-template-columns: repeat(5, 1fr);}
+  .wrapper_activity {grid-template-columns: repeat(1, 1fr);}
+  .activity_title {grid-column-start:1; grid-column-end: 2; grid-row: span 1;}
+  .activity_title p {text-align:left; margin:0 0 5px 0 !important;}
+  .activity_content {grid-column-start: 1; grid-column-end: 2; grid-row:span 1;}
+  .activity_content p {margin: 0 0 0 0 !important; font-size: 10pt !important;}
+  .activity_content div {font-size:10pt !important;}
+  .activity_content > div {margin-left:0 !important;}
+  .activity_content > div > div {margin-left:20px !important;}
+  .aboutus_img { grid-column-start: 1; grid-column-end: 13; grid-row: span 1; position:relative; width:100%;}
+  .aboutus_title { grid-column-start: 1; grid-column-end: 13; grid-row: span 1;}
+  .aboutus_title p {width: 100% !important; font-weight:bold !important; margin:0 0 5px 0 !important; text-align: left;}
+  .aboutus_content { grid-column-start: 1; grid-column-end: 13; grid-row: span 2;}
+  .aboutus_content p {width: 100% !important;  margin:0 0 20px 0 !important; font-size:10pt !important;}
+  .aboutus_skilllogo {position:relative; grid-column: span 1 !important; grid-row: span 1 !important; border:1px solid #CCCCCC;}
+  .aboutus_skilllogo img {position: relative; width:100%; max-height:none;}
+  .aboutus_skilllogo:nth-of-type(5) img {transform:translateY(0%);}
+  .aboutus_skillname {grid-column-start: span 1 !important; grid-row: span 1 !important; border:1px solid #CCCCCC; border-top:none;}
+  .aboutus_skillname p {width:100% !important; margin: 0 0 10px 0 !important; font-size:1.2rem !important; !important; text-align: center !important; font-weight:bold !important;}
+
+  td {font-size: 11pt;}
+  td div {font-size:11pt;}
+
+  header.boxed .header-margin{
+    width:400px;
+  }
+
+  .content .text-intro{
+    width:400px;
+  }
+
+  .footer-margin{
+    width:400px;
+  }
+
+  .content .text-intro h1, .content .text-intro p{
+    width:100% !important;
+
+  }
+
+  #full{
+    width:400px;
+    display:block !important;
+  }
+
+  .menu-index{
+    display:block !important;
+  }
+
+  .prev-next{
+    max-width:400px;
+  }
+  
+  .home-sidebar{
+    display:none;
+  }
+  
+  ul.header-nav{
+    width:50%;
+  
+  }
+  
+  header li > a{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+ 
+  .one-column, .two-column{
+    width:100%;
+  }
+  
+  .contact-one, .contact-two, .contact-three{
+    width:100%;
+  }
+  
+  textarea{
+    height:250px;
+  }
+
+  input.button-submit{
+    margin-bottom:100px;
+  }
+  
+  .logo, .menu-index{
+    display:block;
+  }
+
+  header.boxed{
+    display:none !important;
+  }  
+  
+  #footer-left{text-align:center;}
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  #portfolio-sidebar{
+
+    width:430px !important;
+    padding-right: 0;
+  }
+
+  .portfolio-grid{
+    width:430px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:400px;
+  }
+
+}
+
+
+@media all and (max-width: 480px) {
+  .result { font-size:9pt; }
+  .scenario_p {font-size:9pt !important;}
+  td div {font-size:9pt;}
+  td {font-size: 9pt;}
+  .wrapper_7 {grid-template-columns: repeat(5, 1fr);}
+  .wrapper_activity {grid-template-columns: repeat(1, 1fr);}
+  .activity_title {grid-column-start:1; grid-column-end: 2; grid-row: span 1;}
+  .activity_title p {text-align:left; margin:0 0 5px 0 !important;}
+  .activity_content {grid-column-start: 1; grid-column-end: 2; grid-row:span 1;}
+  .activity_content p {margin: 0 0 0 0 !important; font-size:9pt !important;}
+  .activity_content div {font-size:10pt !important;}
+  .activity_content > div {margin-left:0 !important;}
+  .activity_content > div > div {margin-left:20px !important;}
+  .aboutus_img { grid-column-start: 1; grid-column-end: 13; grid-row: span 1; position:relative; width:100%;}
+  .aboutus_title { grid-column-start: 1; grid-column-end: 13; grid-row: span 1;}
+  .aboutus_title p {width: 100% !important; font-weight:bold !important; margin:0 0 5px 0 !important; text-align: left;}
+  .aboutus_content { grid-column-start: 1; grid-column-end: 13; grid-row: span 2;}
+  .aboutus_content p {width: 100% !important;  margin:0 0 20px 0 !important; font-size:10pt !important;}
+  .aboutus_skilllogo {position:relative; grid-column: span 1 !important; grid-row: span 1 !important; border:1px solid #CCCCCC;}
+  .aboutus_skilllogo img {position: relative; width:100%; max-height:none;}
+  .aboutus_skilllogo:nth-of-type(5) img {transform:translateY(0%);}
+  .aboutus_skillname {grid-column-start: span 1 !important; grid-row: span 1 !important; border:1px solid #CCCCCC; border-top:none;}
+  .aboutus_skillname p {width:100% !important; margin: 0 0 10px 0 !important; font-size:1.2rem !important; !important; text-align: center !important; font-weight:bold !important;}
+
+  header.boxed .header-margin{
+    width:280px;
+  }
+
+  .content .text-intro{
+    width:280px;
+  }
+
+  .footer-margin{
+    width:280px;
+  }
+  
+  .footer-margin .copyright{line-height:40px;}
+
+  .content .text-intro h1, .content .text-intro p{
+    width:100% !important;
+  }
+
+  #full{
+    width:280px;
+    display:block !important;
+  }
+  
+  .menu-index{
+    display:block !important;
+  }
+
+  .prev-next{
+    max-width:280px;
+  }
+  
+  .home-sidebar{
+    display:none;
+  }
+ 
+  .one-column, .two-column{
+    width:100%;
+  }
+  
+  .contact-one, .contact-two, .contact-three{
+    width:100%;
+  }
+  
+  textarea{
+    height:250px;
+  }
+  
+  input, textarea{
+    padding:0;
+  }
+
+  input.button-submit{
+    margin-bottom:100px;
+  }
+  
+  header.boxed{
+    display:none !important;
+  }  
+  
+  #footer-left{text-align:center;}
+  
+  .content .text-intro h1{
+    font-size:33px; 
+    line-height:50px;
+  }
+
+  /*
+  **************************
+  Portfolio Grid
+  **************************
+  */
+
+  #portfolio-sidebar{
+
+    width:310px !important;
+    padding-right: 0;
+  }
+
+  .portfolio-grid{
+    width:310px;
+  }
+
+  .grid-hover, li.grid-item, li.grid-item img{
+    width:280px;
+  }
+
+}

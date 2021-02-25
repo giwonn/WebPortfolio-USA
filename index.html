@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>PORTFOLIO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+
+<!--Style-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script>
+    $(document).ready(function() {
+      $("#fullscreen").load("view/fullscreen.html");
+      $("#header-white").load("view/menu.html");
+      $("#opacity-nav").load("view/mobile-menu.html");
+    });
+  </script>
+</head>
+
+
+<body>
+<div class="opacity-nav"></div>
+
+<!--Header-->
+<header id="fullscreen"></header>
+<header class="boxed" id="header-white"></header>
+<div class="clear"></div>
+
+<!--Content-->
+<div class="content" id="ajax-content">
+
+      <div class="text-intro" id="site-type">
+        <h1>My creative and simplicity modern</h1>
+        <h1><span>Portfolio </span><span class="typed-cursor">|</span></h1>
+        <p>Please check my portfolio.<br>
+          All project is clean and simplicity modern style.</p>
+      </div>
+
+<!--Portfolio grid-->
+<ul class="portfolio-grid" id="portfolio-sidebar">
+  <li class="grid-item" data-jkit="[show:delay=500;speed=500;animation=fade]">
+    <img src="img/portfolio/kiosk_main.png" style="height:380px;">
+      <a class="ajax-link" href="portfolio_1.html">
+        <div class="grid-hover">
+          <h1>Smart Unmanned Order System</h1>
+          <p>2017.09 ~ 2018.07</p>
+        </div>
+      </a>  
+  </li>
+
+  <li class="grid-item" data-jkit="[show:delay=500;speed=500;animation=fade]">
+    <img src="img/portfolio/img_2.png" style="height:380px;">
+      <a class="ajax-link" href="portfolio_3.html">
+        <div class="grid-hover">
+          <h1>capacity detection trash can</h1>
+          <p>2018.4 ~ 2018.5</p>
+        </div>
+      </a>      
+  </li>    
+  
+  <li class="grid-item" data-jkit="[show:delay=500;speed=500;animation=fade]">
+    <img src="img/portfolio/result.JPG" style="height:380px;">
+      <a class="ajax-link" href="portfolio_2.html">
+        <div class="grid-hover">
+          <h1>Autonomous RC Car</h1>
+          <p>2017.10 ~ 2017.12</p>
+        </div>
+      </a>      
+  </li>  
+
+  <li class="grid-item" data-jkit="[show:delay=500;speed=500;animation=fade]">
+    <img src="img/Portfolio_4/doorlock-loading.jpg" style="height:380px;">
+      <a class="ajax-link" href="portfolio_4.html">
+        <div class="grid-hover">
+          <h1>Digital Door-lock</h1>
+          <p>2018.12 ~ 2018.12</p>
+        </div>
+      </a>      
+  </li>
+</ul>
+
+</div>
+
+<!--Home Sidebar-->
+<div id="ajax-sidebar">
+  <div class="home-sidebar" style="background-image:url('img/home-sidebar.jpg'); position:fixed;" id="hero">
+
+    <div class="parallax-option" data-jkit="[parallax:strength=0.8;axis=both]">
+      <div class="parallax parallax1"><img src="img/business-card-2.png">
+      </div>
+    </div>
+
+    <div class="parallax-option" data-jkit="[parallax:strength=0.3;axis=both]">
+      <div class="parallax parallax1"><img src="img/business-card.png">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--Footer-->
+<footer id="footer-box">
+
+  <div class="footer-margin">
+    <div class="copyright" id="footer-left">© Copyright 2015 Thomsoon.com. All Rights Reserved.
+    </div>
+  </div>
+
+</footer>
+
+
+<!--Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function() {
+        $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+        // Animation complete.
+    });
+</script>
+
+</body>
+</html>

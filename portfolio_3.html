@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Single - giwon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function() {
+            $("#fullscreen").load("view/fullscreen.html");
+            $("#header-white").load("view/menu.html");
+            $("#opacity-nav").load("view/mobile-menu.html");
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="opacity-nav"></div>
+
+<!--Header-->
+<header id="fullscreen"></header>
+<header class="boxed" id="header-white"></header>
+<div class="clear"></div>
+
+<!--Content-->
+<div class="content" id="ajax-content">
+
+    <div class="text-intro">
+        <h1 style="width:100%">Capacity detection trash can</h1>
+
+        <div class="clear"></div>
+        <br>
+        <h1>Intro</h1>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    Develop Period
+                </td>
+                <td>
+                    <div>2018.04 ~ 2018.05</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Purpose</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ Before the trash can is full, let it be known in advance to make it easier to manage.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Service</c10>
+                </td>
+                <td>
+                    <div>∎ how much of the trash can is left</div>  <!-- 쓰레기통의 용량이 얼마나 남았는지 알 수 있다. -->
+                    <div style="padding-left:21px; text-indent:-21px;">∎ With lcd and dot-ded, capacity can be checked visually.</div> <!-- lcd와 dot-led를 통해 시각적으로 체크할 수 있다. -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Development</c10>
+                </td>
+                <td>
+                    <div class="project_div">
+                        ∎ Hardware<br>
+                        &nbsp;&nbsp;- Device Driver (ACHRO-FPGA)<br>
+                        &nbsp;&nbsp;- Ultrasonic sensors<br>
+                    </div>
+                    <br>
+                    <div class="project_div">
+                        ∎ Software<br>
+                        &nbsp;&nbsp;- OS : Linux (Ubuntu), Windows10<br>
+                        &nbsp;&nbsp;- Language : C language<br>
+                        &nbsp;&nbsp;- Program : Vim, Visual Studio, VMware
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Result</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">
+                        ∎ The capacity of the trash can has been indicated on the dings and, when trash can is full, on the dings with the device's notification.
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <br><br><br><br>
+        <h1>Result</h1>
+        <table style="position: relative; width:100%">
+            <tr>
+                <td style="width:50%;"><img src="img/Portfolio_3/img_1.png" style="width:100%;"></td>
+                <td style="width:50%;text-align:center;"><img src="img/Portfolio_3/img_2.png" style="width:100%;"></td>
+            </tr>
+            <tr>
+                <td class="result">Device Drivers in initial state</td>
+                <td class="result" style="text-align:center;">Completed view of trash can</td>
+            </tr>
+            <tr>
+                <td><img src="img/Portfolio_3/full_0.png" style="width:100%;"></td>
+                <td style="text-align:center;"><img src="img/Portfolio_3/full_60.png" style="width:100%;"></td>
+            </tr>
+            <tr>
+                <td class="result">the state of the trash can when it is empty</td>
+                <td class="result" style="text-align:center;">the state of the garbage can when it is 60% full</td>
+            </tr>
+            <tr>
+                <td><img src="img/Portfolio_3/full_90.png" style="width:100%;"></td>
+                <td style="text-align:center;"><img src="img/Portfolio_3/full_100.png" style="width:100%;"></td>
+            </tr>
+            <tr>
+                <td class="result">the state of the garbage can when it is 90% full</td>
+                <td class="result" style="text-align:center;">the state of the garbage can when it is 100% full</td>
+            </tr>
+        </table>
+        <br/><br/><br/><br/>
+
+        <div class="prev-next">
+            <div class="prev-button"><a class="ajax-link" href="portfolio_2.html">Previous project</a></div>
+            <div class="next-button"><a class="ajax-link" href="portfolio_4.html">Next project</a></div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--Home Sidebar-->
+<div id="ajax-sidebar"></div>
+
+<!--Footer-->
+<footer>
+    <div class="footer-margin">
+        <div class="copyright">© Copyright 2015 Thomsoon.com. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+
+<!--Scripts-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+
+</body>
+</html>

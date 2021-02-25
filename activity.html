@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Activity - giwon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+
+<!--Style-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <script>
+        $(document).ready(function() {
+            $("#fullscreen").load("view/fullscreen.html");
+            $("#header-white").load("view/menu.html");
+            $("#opacity-nav").load("view/mobile-menu.html");
+        });
+    </script>
+</head>
+
+<body>
+<div class="opacity-nav"></div>
+
+<!--Header-->
+<header id="fullscreen"></header>
+<header class="boxed" id="header-white"></header>
+<div class="clear"></div>
+
+  <!--Content-->
+  <div class="content" id="ajax-content">
+
+      <div class="text-intro">
+          <h1 style="margin-bottom: 30px;">Activity</h1>
+          <div class="wrapper_activity">
+              <div class="activity_title">
+                  <p>EXPERIENCE |</p>
+              </div>
+              <div class="activity_content">
+                  <p style="line-height:20px !important;">Korea Research Center of Measuring Instruments (Dec.2017 - Feb.2018)<br>
+                      <div style="padding:0;">
+                      &nbsp;&nbsp;&nbsp;- Calibration of Measurement Equipment<br>
+                        <div style="padding-left:21px; text-indent:-21px;">
+                            ▶ Measured equipment and calibrate the instrument to enable accurate measurement<br>
+                        </div>
+                        <div style="margin:0;padding-left:21px; text-indent:-21px;">
+                            ▶ performed calibration reacted efficiently and accuracy the situation<br><br>
+                        </div>
+                      </div>
+
+                  <p style="line-height:20px !important;">Korea Research Center of Measuring Instruments (Dec.2016 - Feb.2017)</p>
+                  <div style="padding:0;">
+                      &nbsp;&nbsp;&nbsp;- Receiving and managing equipment<br>
+                      <div style="padding-left:10px; text-indent:-10px;">
+                          ▶ Registered and managed equipment at reception desk
+                      </div>
+                      <div style="padding-left:21px; text-indent:-21px;">
+                          ▶ Help smooth communication between different departments<br><br>
+                      </div>
+                  </div>
+
+                  <p style="line-height:20px !important;">Wooridle Academy (Apr.2018 - Jun.2018)</p>
+                  <div style="padding:0;">
+                      &nbsp;&nbsp;&nbsp;- Math teacher<br>
+                      <div style="padding-left:21px; text-indent:-21px;">
+                          ▶ Taught mathematics to Elementary Students
+                      </div>
+                      <div style="margin:0;padding-left:21px; text-indent:-21px;">
+                          ▶ Taught students at their own level and made it easy to understand
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+	<br/><br/><br/><br/><br/><br/><br/><br/>      
+  </div>
+
+  <!--Home Sidebar-->
+<div id="ajax-sidebar"></div>
+
+  <!--Footer-->
+  <footer>
+    <div class="footer-margin">
+      <div class="copyright">© Copyright 2015 Thomsoon.com. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+<!--Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>

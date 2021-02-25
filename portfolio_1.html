@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Single - giwon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function() {
+            $("#fullscreen").load("view/fullscreen.html");
+            $("#header-white").load("view/menu.html");
+            $("#opacity-nav").load("view/mobile-menu.html");
+        });
+    </script>
+</head>
+
+<body>
+<div class="opacity-nav"></div>
+
+<!--Header-->
+<header id="fullscreen"></header>
+<header class="boxed" id="header-white"></header>
+<div class="clear"></div>
+
+<!--Content-->
+<div class="content" id="ajax-content">
+
+    <div class="text-intro">
+
+        <h1 style="width:100%">Smart Unmanned Order System</h1>
+        <div class="clear"></div>
+
+        <img src="img/single/main.png" width="100%" style="border:1px solid #CCCCCC"><br/><br/><br/><br/><br/><br/>
+        <h1>Intro</h1>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    Develop Period
+                </td>
+                <td>
+
+                    <div>2017.09 ~ 2018.07</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Purpose</c10>
+                </td>
+                <td>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ Developed GUI for the Counter and for the unmanned ordering machine</div>
+                    <div style="padding-left:21px; text-indent:-21px;">∎ Informed customers of waiting information, enabling them to select menus efficiently when
+                        ordering
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Service</c10>
+                </td>
+                <td>
+                    <div style="float:left; padding-right:5px;">∎</div>
+                    <div>Order using Kiosk and App</div>
+                    <div style="float:left; padding-right:5px;">∎</div>
+                    <div>Wait information is available before ordering</div>
+                    <div style="float:left; padding-right:5px;">∎</div>
+                    <div>Vibration bell that shows waiting information</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Development</c10>
+                </td>
+                <td>
+                    <div class="project_div">
+                        ∎ Kiosk<br>
+                        &nbsp;&nbsp;- Eclipse<br>
+                        &nbsp;&nbsp;- Using Java Swing
+                    </div><br>
+                    <div class="project_div">
+                        ∎ Counter<br>
+                        &nbsp;&nbsp;- Eclipse<br>
+                        &nbsp;&nbsp;- Using Java FX
+                    </div><br>
+                    <div class="project_div">
+                        ∎ App<br>
+                        &nbsp;&nbsp;- Android Studio<br>
+                        &nbsp;&nbsp;- Using Java
+                    </div><br>
+                    <div>
+                        ∎ Vibration bell<br>
+                        &nbsp;&nbsp;- RaspberryPi<br>
+                        &nbsp;&nbsp;- Using C language
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <c10>Result</c10>
+                </td>
+                <td>
+                        <div style="padding-left:21px; text-indent:-21px;">∎ By providing waiting information,
+                        customers were able to increase satisfaction and save labor costs by using unmanned ordering machines.
+                        </div>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <h1>scenario</h1>
+        <img src="img/single/scenario_app.png" width="100%" style="margin-bottom:10px;"><br/>
+        <p class="scenario_p" style="margin-bottom:50px; margin-top:0;padding-left:21px; text-indent:-21px;">∎ When an app is ordered, waiting information is updated in real time in pop-up window.</p>
+        <br/>
+        <img src="img/single/scenario_bell.png" width="100%"><br/><br/>
+        <p class="scenario_p" style="margin-top:0; padding-left:21px; text-indent:-21px;">∎ When ordering from a kiosk or counter, the server sends waiting information to the vibrating signal.</p>
+        <p class="scenario_p" style="margin:10px 0 10px 0; padding-left:21px; text-indent:-21px;">∎ When finished cooking is completed, the vibration bell is initialized and the vibration is triggered.</p>
+        <br><br><br><br>
+        <h1>Result</h1>
+        <img src="img/single/all.png" width="100%">
+        <p class="scenario_p" style="padding-left:21px; text-indent:-21px;">∎ Kiosk : Display waiting information on the first screen.</p>
+        <p class="scenario_p" style="margin:0; padding-left:21px; text-indent:-21px;">∎ App : Display waiting information in order screen.</p>
+        <p class="scenario_p" style="margin:0; padding-left:21px; text-indent:-21px;">∎ Vibretion bell : The Waiting information is displayed through the FND at the top of the vibrating signal.</p>
+        <br/><br/><br/><br/>
+
+
+        <div class="prev-next">
+
+            <div class="prev-button" style="color:gray">Previous project</div>
+            <div class="next-button"><a class="ajax-link" href="portfolio_2.html">Next project</a></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--Home Sidebar-->
+<div id="ajax-sidebar"></div>
+
+<!--Footer-->
+<footer>
+
+    <div class="footer-margin">
+        <div class="copyright">© Copyright 2015 Thomsoon.com. All Rights Reserved.
+        </div>
+    </div>
+
+</footer>
+
+
+<!--Scripts-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+</body>
+</html>
